@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="CALCULADORA BIN&#xc1;RIO"/>
+    <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[0, 0]"/>
+    </Property>
+    <Property name="locationByPlatform" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="separador_inputsLegenda" alignment="0" max="32767" attributes="0"/>
+          <Component id="label_legenda" max="32767" attributes="0"/>
+          <Component id="tabs_operacoes" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="spinner_numero_bits" min="-2" pref="48" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="botao_min_bits" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="botao_max_bits" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="label_numero_bits" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="checkbox_apagarAoSubmeter" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="2" attributes="0">
+                                      <Component id="botao_soma" linkSize="6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_subtracao" linkSize="6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="2" attributes="0">
+                                      <Component id="botao_multiplicacao" linkSize="6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_divisao" linkSize="6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="botao_submeter" linkSize="6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="label_indicador_overflow" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="canvas_overflow" alignment="2" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="canvas_underflow" alignment="2" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Component id="label_indicador_underflow" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="botao_soma" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_subtracao" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="botao_divisao" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_multiplicacao" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="label_numero_bits" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="botao_min_bits" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_max_bits" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spinner_numero_bits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="checkbox_apagarAoSubmeter" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="tabs_operacoes" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label_indicador_underflow" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_indicador_overflow" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="canvas_underflow" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="canvas_overflow" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="botao_submeter" linkSize="7" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="separador_inputsLegenda" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="label_legenda" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="botao_soma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="soma"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_somaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao_subtracao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="subtra&#xe7;&#xe3;o"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_subtracaoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao_multiplicacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="multiplica&#xe7;&#xe3;o"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_multiplicacaoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao_divisao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="divis&#xe3;o"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_divisaoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label_numero_bits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xda;MERO DE BITS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="separador_inputsLegenda">
+    </Component>
+    <Component class="javax.swing.JLabel" name="label_legenda">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1 - OVERFLOW | 2- UNDERFLOW"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao_submeter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SUBMETER"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_submeterActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spinner_numero_bits">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new SpinnerNumberModel(2,2,32,1)" type="code"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor Padr&#xe3;o"/>
+        </Property>
+        <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.editors.SpinnerEditorEditor">
+          <SpinnerEditor format="" type="3"/>
+        </Property>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+        <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="spinner_numero_bitsStateChanged"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="        ((DefaultEditor)spinner_numero_bits.getEditor()).getTextField().setEditable(false); "/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao_min_bits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MIN"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_min_bitsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="botao_max_bits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MAX"/>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_max_bitsActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="tabs_operacoes">
+      <Properties>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="tabsOperacoes" noResource="true"/>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="tabsOperacoes"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="tabs_operacoesStateChanged"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painel_operacao_int">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="int"/>
+          </AccessibilityProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="int">
+                <Property name="tabTitle" type="java.lang.String" value="int"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="separador_int_esquerda" min="-2" pref="159" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="label_resultado_int" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="separador_int_direita" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="label_resultado_int_normalizado" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label_resultado_int_complemento" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="textfield_int_resultado_normalizado" linkSize="17" alignment="1" min="-2" pref="81" max="-2" attributes="0"/>
+                                  <Component id="textfield_int_resultado_compDe2" linkSize="17" alignment="1" min="-2" pref="75" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="label_int_bit_sinal_primeiro" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="label_int_binario_primeiro" linkSize="14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label_int_bit_sinal_segundo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="label_int_binario_segundo" linkSize="14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="combobox_int_bit_sinal_segundo" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="textfield_int_binario_segundo" linkSize="17" max="32767" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_int_adicionar0_segundo" linkSize="8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_int_adicionar1_segundo" linkSize="8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_int_limpar_segundo" linkSize="10" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="combobox_int_bit_sinal_primeiro" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="textfield_int_binario_primeiro" linkSize="17" min="-2" pref="237" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_int_adicionar0_primeiro" linkSize="8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_int_adicionar1_primeiro" linkSize="8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="botao_int_limpar_primeiro" linkSize="10" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label_int_bit_sinal_primeiro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_int_binario_primeiro" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textfield_int_binario_primeiro" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="combobox_int_bit_sinal_primeiro" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_int_adicionar0_primeiro" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_int_adicionar1_primeiro" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_int_limpar_primeiro" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label_int_binario_segundo" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="label_int_bit_sinal_segundo" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="combobox_int_bit_sinal_segundo" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_int_binario_segundo" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_int_adicionar0_segundo" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_int_adicionar1_segundo" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_int_limpar_segundo" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label_resultado_int" min="-2" max="-2" attributes="0"/>
+                          <Component id="separador_int_esquerda" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="separador_int_direita" alignment="0" min="-2" pref="10" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="label_resultado_int_normalizado" linkSize="19" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="label_resultado_int_complemento" linkSize="19" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="textfield_int_resultado_normalizado" linkSize="5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="textfield_int_resultado_compDe2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="label_int_binario_primeiro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PRIMEIRO BIN&#xc1;RIO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_int_binario_primeiro">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor Padr&#xe3;o"/>
+                </Property>
+                <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_int_binario_segundo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="SEGUNDO BIN&#xc1;RIO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_int_binario_segundo">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="combobox_int_bit_sinal_segundo">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="2"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                  </StringArray>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_int_bit_sinal_segundo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="BIT DE SINAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="combobox_int_bit_sinal_primeiro">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="2"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                  </StringArray>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_int_bit_sinal_primeiro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="BIT DE SINAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_int_adicionar0_primeiro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_int_adicionar0_primeiroActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_int_adicionar1_primeiro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_int_adicionar1_primeiroActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_int_limpar_primeiro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="limpar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_int_limpar_primeiroActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_int_adicionar0_segundo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_int_adicionar0_segundoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_int_adicionar1_segundo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_int_adicionar1_segundoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_int_limpar_segundo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="limpar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_int_limpar_segundoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_resultado_int">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="RESULTADO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_int_resultado_normalizado">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_int_resultado_compDe2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_resultado_int_normalizado">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NORMALIZADO:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_resultado_int_complemento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="COMPLEMENTO DE 2:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="separador_int_esquerda">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="separador_int_direita">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="painel_operacao_float">
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="float"/>
+          </AccessibilityProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="float">
+                <Property name="tabTitle" type="java.lang.String" value="float"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="combobox_float_bit_sinal_FP1" linkSize="43" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="label_bit_sinal_FP1" linkSize="56" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="label_bit_sinal_exp1" linkSize="58" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_float_bit_sinal_exp1" linkSize="43" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="textfield_float_expoente1" linkSize="38" alignment="2" min="-2" pref="135" max="-2" attributes="0"/>
+                                      <Component id="label_campo_expoente1" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="label_botoes_expoente1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar0_expoente1" linkSize="45" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar1_expoente1" linkSize="45" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="botao_float_limpar_expoente1" linkSize="47" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="label_botoes_expoente2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar0_expoente2" linkSize="45" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar1_expoente2" linkSize="45" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="botao_float_limpar_expoente2" linkSize="47" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="combobox_float_bit_sinal_FP2" linkSize="43" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="label_bit_sinal_FP2" linkSize="56" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="label_bit_sinal_exp2" linkSize="58" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_float_bit_sinal_exp2" linkSize="43" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="textfield_float_expoente2" linkSize="38" alignment="2" min="-2" pref="135" max="-2" attributes="0"/>
+                                      <Component id="label_campo_expoente2" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label_resultado_float_compDe2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labe_float_bit_sinal_segunda" linkSize="54" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="textfield_float_bit_sinal_resultado_norm" linkSize="53" min="-2" pref="22" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="textfield_float_expoente_resultado_norm" linkSize="38" min="-2" pref="135" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="textfield_float_bit_sinal_resultado_comp" linkSize="53" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="textfield_float_expoente_resultado_comp" linkSize="38" min="-2" pref="135" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="label_1_binario_mantissa1" linkSize="51" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_1_binario_mantissa2" linkSize="51" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_1_resultado_norm" linkSize="51" alignment="2" min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="label_1_resultado_comp" linkSize="51" alignment="2" min="-2" pref="11" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="textfield_float_mantissa1" linkSize="52" alignment="2" pref="203" max="32767" attributes="0"/>
+                          <Group type="102" alignment="2" attributes="0">
+                              <Component id="label_botoes_mantissa_primeira" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="botao_float_adicionar0_mantissa1" linkSize="45" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="botao_float_adicionar1_mantissa1" linkSize="45" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="botao_float_limpar_mantissa1" linkSize="61" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="separador_float_esquerda" min="-2" pref="177" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="label_resultado_float_normalizado" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="separador_float_direita" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label_resultado_float_norm" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label_float_bit_sinal_primeira" linkSize="54" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="2" attributes="0">
+                                      <Component id="textfield_float_mantissa2" linkSize="52" alignment="2" min="-2" pref="209" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="2" attributes="0">
+                                          <Component id="label_botoes_mantissa2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                          <Component id="botao_float_adicionar0_mantissa2" linkSize="45" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                          <Component id="botao_float_adicionar1_mantissa2" linkSize="45" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                          <Component id="botao_float_limpar_mantissa2" linkSize="61" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" alignment="1" groupAlignment="2" attributes="0">
+                                      <Component id="textfield_float_mantissa_resultado_norm" linkSize="52" alignment="2" min="-2" pref="180" max="-2" attributes="0"/>
+                                      <Component id="textfield_float_mantissa_resultado_comp" linkSize="52" alignment="2" min="-2" pref="178" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="label_campo_mantissa2" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label_campo_mantissa1" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label_float_bit_sinal_primeira" linkSize="55" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="label_campo_expoente1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="label_bit_sinal_FP1" linkSize="57" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="label_bit_sinal_exp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="combobox_float_bit_sinal_FP1" linkSize="44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="textfield_float_expoente1" linkSize="39" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="combobox_float_bit_sinal_exp1" linkSize="44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="botao_float_adicionar0_expoente1" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar1_expoente1" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="botao_float_limpar_expoente1" linkSize="48" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label_botoes_expoente1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="label_campo_mantissa1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="textfield_float_mantissa1" linkSize="32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label_1_binario_mantissa1" linkSize="23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label_botoes_mantissa_primeira" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar0_mantissa1" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="botao_float_adicionar1_mantissa1" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="botao_float_limpar_mantissa1" linkSize="48" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="labe_float_bit_sinal_segunda" linkSize="55" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label_campo_expoente2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label_campo_mantissa2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label_bit_sinal_FP2" linkSize="57" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="label_bit_sinal_exp2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="combobox_float_bit_sinal_FP2" linkSize="44" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_float_mantissa2" linkSize="32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_float_expoente2" linkSize="39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_1_binario_mantissa2" linkSize="23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="combobox_float_bit_sinal_exp2" linkSize="44" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="botao_float_adicionar0_expoente2" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_float_adicionar1_expoente2" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_float_limpar_expoente2" linkSize="48" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_botoes_expoente2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_botoes_mantissa2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_float_adicionar0_mantissa2" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_float_adicionar1_mantissa2" linkSize="46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="botao_float_limpar_mantissa2" linkSize="48" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label_resultado_float_normalizado" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="separador_float_direita" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="separador_float_esquerda" min="-2" pref="10" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="label_resultado_float_norm" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textfield_float_mantissa_resultado_norm" linkSize="32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_float_expoente_resultado_norm" linkSize="39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_float_bit_sinal_resultado_norm" linkSize="50" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_1_resultado_norm" linkSize="23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="label_resultado_float_compDe2" min="-2" pref="16" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textfield_float_expoente_resultado_comp" linkSize="39" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_float_bit_sinal_resultado_comp" linkSize="50" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textfield_float_mantissa_resultado_comp" linkSize="32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label_1_resultado_comp" linkSize="23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="combobox_float_bit_sinal_FP1">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="2"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                  </StringArray>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_float_bit_sinal_primeira">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" value="BIT DE SINAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_mantissa1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor Padr&#xe3;o"/>
+                </Property>
+                <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_campo_mantissa1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PRIMEIRA MANTISSA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar0_mantissa1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar0_mantissa1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar1_mantissa1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar1_mantissa1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_limpar_mantissa1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="limpar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_limpar_mantissa1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_expoente1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar0_expoente1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar0_expoente1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar1_expoente1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar1_expoente1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_limpar_expoente1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="limpar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_limpar_expoente1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_botoes_expoente1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXPOENTE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_botoes_mantissa_primeira">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="MANTISSA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_campo_expoente1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXPOENTE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_resultado_float_normalizado">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="RESULTADO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_expoente_resultado_norm">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_bit_sinal_resultado_norm">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_mantissa_resultado_norm">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_1_binario_mantissa1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1,"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_1_resultado_norm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1,"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_resultado_float_compDe2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="COMPLEMENTO DE 2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_bit_sinal_resultado_comp">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_expoente_resultado_comp">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_1_resultado_comp">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="  "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_mantissa_resultado_comp">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_bit_sinal_FP1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FP"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="combobox_float_bit_sinal_exp1">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="2"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                  </StringArray>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_bit_sinal_exp1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXP"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labe_float_bit_sinal_segunda">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="text" type="java.lang.String" value="BIT DE SINAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_bit_sinal_FP2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FP"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_bit_sinal_exp2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXP"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="combobox_float_bit_sinal_exp2">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="2"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                  </StringArray>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="combobox_float_bit_sinal_FP2">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="2"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                  </StringArray>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar0_expoente2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar0_expoente2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_botoes_expoente2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXPOENTE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_expoente2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar1_expoente2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar1_expoente2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_limpar_expoente2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="limpar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_limpar_expoente2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_campo_expoente2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EXPOENTE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_campo_mantissa2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="SEGUNDA MANTISSA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_1_binario_mantissa2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1,"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textfield_float_mantissa2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor Padr&#xe3;o"/>
+                </Property>
+                <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_botoes_mantissa2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="MANTISSA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar0_mantissa2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar0_mantissa2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_adicionar1_mantissa2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_adicionar1_mantissa2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="botao_float_limpar_mantissa2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="limpar"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botao_float_limpar_mantissa2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="label_resultado_float_norm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NORMALIZADO"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="separador_float_direita">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="separador_float_esquerda">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="label_indicador_overflow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Canvas" name="canvas_underflow">
+    </Component>
+    <Component class="javax.swing.JLabel" name="label_indicador_underflow">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Canvas" name="canvas_overflow">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkbox_apagarAoSubmeter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="APAGAR CAMPOS AO SUBMETER"/>
+        <Property name="focusable" type="boolean" value="false"/>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

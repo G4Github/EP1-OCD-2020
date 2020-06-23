@@ -1,0 +1,22 @@
+Criar uma calculadora que faça as quatro operações com números binários inteiros em complemento de 2 e em ponto flutuante (IEEE 754 32 bits). A multiplicação de inteiros DEVE ser feita usando o algoritmo de Booth!
+
+Primeiramente a calculadora pergunta se o usuário quer fazer uma operação com inteiros ou ponto flutuante (ou sair do programa).
+
+Para os números inteiros, o programa deve pedir que o usuário entre:
+- a quantidade de bits da operação desejada pelo usuário (incluindo o bit de sinal)
+- a operação (soma, subtração, multiplicação ou divisão)
+- o sinal (+ ou -) e o valor em binário do primeiro número (sem usar complemento de 2)
+- o sinal (+ ou -) e o valor em binário do segundo número (sem usar complemento de 2)
+
+E deve mostrar como saída o resultado da operação (inclusive se deu overflow), retornando para a opção de operação com inteiro, ponto flutuante ou sair.
+
+para os números de ponto flutuante, o programa deve perguntar:
+- a operação
+- o sinal (+ ou -), a mantissa (no formato 1,XXXXXX..., onde os X são zeros ou uns) e o expoente em binário (mas sem o bias ou excesso)
+- a mesma coisa para o segundo número
+
+E a saída deve ser a resposta (inclusive se for overflow ou underflow), retornando para a opção de operação com inteiro, ponto flutuante ou sair.
+
+Vocês podem usar quaisquer funções prontas que quiserem, exceto para fazer as contas em si. Para fazer as operações, eu vou querer ver no código os loops de vocês que vão fazendo a conta bit a bit. Vocês também podem usar qualquer estrutura de dados que quiserem para guardar a representação dos números binários (uma string ou um vetor de boolean, por exemplo), mas tem que criar uma representação própria e usar essa representação na hora de fazer todas as contas. As funções de inteiros devem ser usadas para implementar as operações com mantissas e expoentes do ponto flutuante. O programa não deve permitir divisão por zero em nenhum caso.
+
+Vocês vão entregar o código comentado, um "executável" (por exemplo um .jar) e um relatório. Mais perto da data de entrega eu digo o que deve ter no relatório.
